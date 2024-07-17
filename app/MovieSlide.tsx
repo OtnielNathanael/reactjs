@@ -18,7 +18,6 @@ const MovieSlide = () => {
             try {
                 const response = await axios.get('http://localhost:5000/api/movies');
                 setMovieData(response.data.data);
-                console.log(response.data);
             } catch (error) {
                 console.log('Error fetching data: ', error);
             }

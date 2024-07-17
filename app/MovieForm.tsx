@@ -5,7 +5,7 @@ import axios from 'axios';
 import {Button } from 'react-bootstrap';
 
 
-const MovieForms = () => {  
+const MovieForm = () => {  
  const [judul, setJudul] = useState('');
  const [sutradara, setSutradara] = useState('');
  const [deskripsi, setDeskripsi] = useState('');
@@ -121,4 +121,4 @@ return (
 
 );
 };
-export default MovieForms;
+export default MovieForm;

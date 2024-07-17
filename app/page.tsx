@@ -3,7 +3,7 @@ import React from 'react';
 import { Button, Card, CardText, Stack } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import MovieCard from "./MovieCard";
-import MovieForms from "./MovieForm";
+import MovieForm from "./MovieForm";
 import MovieSlide from "./MovieSlide";
 
 export default function Home() {
@@ -28,7 +28,7 @@ export default function Home() {
         </div>
       </div>
 
-      <MovieForms />
+      <MovieForm />
       <MovieSlide />
       <MovieCard />
       </div>
