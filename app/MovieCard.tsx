@@ -52,7 +52,7 @@ const MovieCard = () => {
                                     </Button>    
                                 </div>
 
-                                <div className="bg-dark p-2 m-1">
+                                <div className="bg-warning p-2 m-1">
                                     <CardText>{movie.judul}</CardText>
                                     <CardText>Rating: {movie.rating}</CardText>
                                 </div>

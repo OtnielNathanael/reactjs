@@ -14,15 +14,15 @@ export default function Home() {
        <div className="col-md-6">
                   
                       <h1 style={{ fontSize: "24px", color: "blue" }}>Home Movie List</h1>
-                      <h2 style={{ fontSize: "20px", color: "green" }}>Otniel Nathanael</h2>
-                      <h3 style={{ fontSize: "16px", color: "red" }}>Kelas pemograman web malam</h3>
-
+                      <h2 style={{ fontSize: "20px", color: "magenta" }}>Otniel Nathanael</h2>
+                      <h3 style={{ fontSize: "16px", color: "green" }}>Kelas pemograman web malam</h3>
+                     
                       <Stack direction="horizontal" gap={2}>
             <Button as="a" variant="primary">
-              Button as link
+              Hiasan 1
             </Button>
             <Button as="a" variant="success">
-              Button as link
+              Hiasan 2
             </Button>
           </Stack>
         </div>
